@@ -18,3 +18,6 @@ class Person {
 // when we make instance (object) of a class, its constructor call automatically 
 const user1 = new Person('Hasan', 27);
 user1.greet();   // call greet via object
+
+const user2 = new Person('Shaly', 22);
+user2.greet();
