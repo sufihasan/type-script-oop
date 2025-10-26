@@ -8,6 +8,7 @@ class Person {
         this.age = ageP;
     }
 
+    // greet() is a class method that prints a welcome message
     greet() {
         console.log(`welcome ${this.name} and your age is ${this.age}`);
     }
