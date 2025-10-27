@@ -26,7 +26,7 @@ interface HasId {
     id: number
 }
 
-function idCheck<T extends { id: number }>(item: T): number {
+function idCheck<T extends HasId>(item: T): number {
     return item.id;
 }
 
