@@ -1,7 +1,7 @@
 "use strict";
 // vahicle management project
 Object.defineProperty(exports, "__esModule", { value: true });
-// create an parent class 
+// create an parent class  Car
 class Car {
     brand;
     speed;
@@ -11,11 +11,11 @@ class Car {
     //     this.brand = brandP;
     //     this.speed = speedP;
     // }
-    year = 2025;
+    year = 2025; // make a property that is protected
     constructor(brand, speed) {
         this.brand = brand;
         this.speed = speed;
-    }
+    } // short from of define constructor
     move() {
         console.log(`The ${this.brand} car is moving at ${this.speed} km/h`);
     }
