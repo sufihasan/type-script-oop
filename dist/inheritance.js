@@ -1,6 +1,4 @@
-"use strict";
 // Inheritance
-Object.defineProperty(exports, "__esModule", { value: true });
 class Animal {
     name;
     // name: string;
@@ -23,6 +21,7 @@ class Dog extends Animal {
 const mydog = new Dog('Lalulu');
 mydog.move();
 mydog.bark();
+export {};
 // note
 //🟩 1. The Dog class does not define its own constructor.
 // That means:

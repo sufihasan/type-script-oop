@@ -1,6 +1,4 @@
-"use strict";
 // vahicle management project
-Object.defineProperty(exports, "__esModule", { value: true });
 // create an parent class  Car
 class Car {
     brand;
@@ -30,3 +28,4 @@ class ElectricCar extends Car {
 const tesla = new ElectricCar('tesla model 3', 100);
 tesla.move();
 tesla.charge();
+export {};

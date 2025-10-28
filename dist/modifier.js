@@ -1,6 +1,4 @@
-"use strict";
 // Access Modifiers (public, private, protected)
-Object.defineProperty(exports, "__esModule", { value: true });
 // ✅ public
 // Default in TypeScript.
 // Can be accessed anywhere (inside class, subclass, or outside).
@@ -37,5 +35,6 @@ class BankAccount1 {
 }
 const account = new BankAccount1(1000);
 account.showBalance(); // ✅ OK
+export {};
 // console.log(account.balance); ❌ Error (private)
 //---------------------------

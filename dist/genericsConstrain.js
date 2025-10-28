@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // normal generic
 function logData(data) {
     console.log(data);
@@ -19,3 +17,4 @@ function idCheck(item) {
 }
 const result = idCheck({ id: 120 });
 console.log('The result is', result);
+export {};

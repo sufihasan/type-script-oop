@@ -1,7 +1,5 @@
-"use strict";
 // implement keyword
 // 🧩 What is implements in TypeScript?
-Object.defineProperty(exports, "__esModule", { value: true });
 class Car {
     start() {
         console.log('car is started...');
@@ -13,3 +11,4 @@ class Car {
 const myCar = new Car();
 myCar.start();
 myCar.end();
+export {};

@@ -1,6 +1,4 @@
-"use strict";
 // first without generics
-Object.defineProperty(exports, "__esModule", { value: true });
 function printStringValue(value) {
     console.log(`The value is: ${value}`);
 }
@@ -29,3 +27,4 @@ const numberResponse = {
         salary: 10000
     }
 };
+export {};

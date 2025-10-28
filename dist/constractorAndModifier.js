@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Person {
     name;
     age;
@@ -18,3 +16,4 @@ const user1 = new Person('Hasan', 27);
 user1.greet(); // call greet via object
 const user2 = new Person('Shaly', 22);
 user2.greet();
+export {};
